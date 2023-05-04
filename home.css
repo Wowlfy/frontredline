@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 9999;
+}
+
+.navbar-logo img {
+    height: 50px;
+}
+
+.body {
+    background-color: orangered;
+}
