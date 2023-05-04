@@ -15,6 +15,24 @@
     height: 50px;
 }
 
-.body {
+body {
     background-color: orangered;
+}
+
+.container {
+    display: flex;
+}
+
+.frame {
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.frame-left {
+    width: 300px;
+}
+
+.frame-right {
+    flex: 1;
 }
