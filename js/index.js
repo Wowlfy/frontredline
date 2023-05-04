@@ -1,4 +1,5 @@
 import axios from 'axios';
+import "@fortawesome/fontawesome-free/css/all";
 
 axios.get('https://jsonplaceholder.typicode.com/posts')
     .then(response => {
