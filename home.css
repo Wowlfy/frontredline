@@ -3,7 +3,6 @@
     justify-content: space-between;
     align-items: center;
     background-color: transparent;
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -19,20 +18,4 @@ body {
     background-color: orangered;
 }
 
-.container {
-    display: flex;
-}
 
-.frame {
-    background-color: #fff;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-.frame-left {
-    width: 300px;
-}
-
-.frame-right {
-    flex: 1;
-}
