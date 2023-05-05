@@ -1,6 +1,9 @@
-h1, h2, h3, h4{
+h1, h2, h3, h4, span, label, a{
     color: white;
     font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
 }
 
 iframe[iframetag] {
@@ -9,11 +12,7 @@ iframe[iframetag] {
 }
 .container {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 16px;
+    margin: 0 auto;
 }
-.iframe{
-   width: 1000px;
-}
+
 
