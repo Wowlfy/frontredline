@@ -1,3 +1,9 @@
+
+<?php
+
+session_start();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,11 +32,8 @@
     </div>
 </div>
 
-<div class="container">
-    <div class="first-part">SIUU</div>
-    <div class="second-part">SIUUU</div>
-</div>
 
 </body>
 <script src="js/index.js"></script>
 </html>
+
